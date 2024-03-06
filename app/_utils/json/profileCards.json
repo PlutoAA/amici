@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Лев Савенко",
+    "role": "Генеральный директор",
+    "imgUrl": "/imgs/team/Lev.png"
+  },
+  {
+    "id": 1,
+    "name": "Екатерина Мащенко",
+    "role": "Арт-Директор",
+    "imgUrl": "/imgs/team/Katherine.png"
+  },
+  {
+    "id": 2,
+    "name": "Владимир Петров",
+    "role": "SMM специалист",
+    "imgUrl": "/imgs/team/Vladimir.png"
+  },
+  {
+    "id": 3,
+    "name": "Андрей Лобацевич",
+    "role": "Графический дизайнер",
+    "imgUrl": "/imgs/team/Andrew.png"
+  },
+  {
+    "id": 4,
+    "name": "Даниил Титов",
+    "role": "Программист",
+    "imgUrl": "/imgs/team/Daniil.png"
+  },
+  {
+    "id": 5,
+    "name": "Эрика Крицкая",
+    "role": "Иллюстратор",
+    "imgUrl": "/imgs/team/Erika.png"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Запланируй свой",
+    "authors": "Мащенко Е., Савенко Л., Титов Д.",
+    "imgUrl": "/imgs/projects/ZaplaniruySvoi.png",
+    "link": "zaplaniruy-svoi"
+  },
+  {
+    "id": 1,
+    "name": "MOCHA",
+    "authors": "Мащенко Е.",
+    "imgUrl": "/imgs/projects/Mocha.png",
+    "link": "mocha"
+  },
+  {
+    "id": 2,
+    "name": "leaf&bean",
+    "authors": "Мащенко Е., Петров В.",
+    "imgUrl": "/imgs/projects/LeafBean.png",
+    "link": "leafAndBean"
+  },
+  {
+    "id": 3,
+    "name": "Dynasty",
+    "authors": "Мащенко Е., Савенко Л.",
+    "imgUrl": "/imgs/projects/Dynasty.png",
+    "link": "dynasty"
+  },
+  {
+    "id": 4,
+    "name": "AVOS’KA",
+    "authors": "Лобацевич А., Савенко Л.",
+    "imgUrl": "/imgs/projects/Avoska.png",
+    "link": "avoska"
+  }
+]

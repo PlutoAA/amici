@@ -1,0 +1,48 @@
+.contactForm {
+  display: flex;
+  gap: 120px;
+  padding: 120px 64px;
+  background-color: #F5F5F5;
+
+  &__text {
+    font-size: 24px;
+    font-weight: 800;
+    &:last-of-type {
+      margin-top: 24px;
+    }
+  }
+
+  &__inputs {
+    margin-top: 64px;
+  }
+
+  &__input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    padding: 12px 0;
+    margin-top: 12px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &::placeholder {
+      font-size: 24px;
+    }
+  }
+
+  &__btn {
+    display: block;
+    margin: 48px auto 0;
+    background: #0C443F;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 12px 24px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+}

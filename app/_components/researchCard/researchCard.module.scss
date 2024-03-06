@@ -1,0 +1,13 @@
+.researchCard {
+  position: relative;
+  &_description, &_name {
+    display: block;
+    font-size: 24px;
+    margin-top: 12px;
+    font-weight: 500;
+  }
+
+  &_name {
+    font-weight: 800;
+  }
+}

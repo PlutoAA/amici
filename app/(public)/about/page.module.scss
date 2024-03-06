@@ -1,0 +1,58 @@
+.container {
+  max-width: 1425px;
+  padding: 0 36px;
+}
+
+.about {
+  &_anim {
+    opacity: 1;
+    display: block;
+    transition: all 0.2s ease-in;
+  }
+  &_text {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 24px 0;
+  }
+}
+
+.moreBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  font-size: 24px;
+  font-weight: 800;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@starting-style {
+  .about_anim {
+    opacity: 0;
+  }
+}
+
+.teamBlock{
+  &_header{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 64px;
+    margin-bottom: 52px;
+  }
+} 
+
+.personCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 92px;
+}
+
+.teamPhoto {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  max-width: 1920px;
+  max-height: 1020px;
+}

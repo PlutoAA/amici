@@ -1,0 +1,11 @@
+.socialsPopup {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  position: absolute;
+  left: 1vw;
+
+  &_text {
+    font-weight: 700;
+  }
+}

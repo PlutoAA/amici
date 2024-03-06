@@ -1,0 +1,12 @@
+.projectCard {
+  position: relative;
+  &_authors {
+    margin-top: 12px;
+  }
+
+  &_authors, &_name {
+    display: block;
+    font-weight: 800;
+    font-size: 24px;
+  }
+}

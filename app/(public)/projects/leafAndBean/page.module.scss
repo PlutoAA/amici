@@ -1,0 +1,15 @@
+.container {
+  padding: 0 41px 0 51px;
+  margin-top: 48px;
+}
+
+.gallery {
+  margin-top: 42px;
+  margin-bottom: 42px;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+  }
+}

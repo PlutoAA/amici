@@ -1,0 +1,14 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.video {
+  width: 100%;
+  background-color: black;
+  @media screen and (max-width: 1900px) {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+.personCard {
+  &_role {
+    margin-top: 12px;
+  }
+
+  &_role, &_name {
+    display: block;
+    font-weight: 500;
+  }
+}

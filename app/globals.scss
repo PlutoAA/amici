@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-family: var(--font-craftWork);
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: var(--font-goldman);
+}
+
+.app-container {
+  min-height: 350px;
+}

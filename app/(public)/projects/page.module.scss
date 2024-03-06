@@ -1,0 +1,15 @@
+.container {
+  max-width: 1284px;
+  margin: 0 auto;
+}
+
+.projectCards {
+  margin-top: 75px;
+
+  &:first-child {
+    margin-top: 32px;
+  }
+  &:last-child {
+    margin-bottom: 64px;
+  }
+}
