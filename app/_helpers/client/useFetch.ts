@@ -1,5 +1,4 @@
 import { useRouter } from 'next/navigation';
-import {headers} from "next/headers";
 
 export { useFetch };
 

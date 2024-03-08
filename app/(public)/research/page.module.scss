@@ -8,6 +8,20 @@
   grid-template-columns: 400px 400px;
   grid-row-gap: 112px;
   grid-column-gap: 300px;
-  margin-top: 112px;
-  margin-bottom: 64px;
+  margin: 112px auto 64px;
+  justify-content: center;
+  @media screen and (max-width: 1200px) {
+    grid-column-gap: 64px;
+  }
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 400px;
+  }
+}
+
+.video {
+  width: 100%;
+  background-color: black;
+  @media screen and (max-width: 1900px) {
+    display: none;
+  }
 }

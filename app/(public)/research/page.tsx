@@ -17,7 +17,9 @@ function Research() {
 
     return (
         <>
-            <Video width={1920} height={1000} videoUrl='/anims/research.mp4'/>
+            <div className={styles.video}>
+                <Video width={1920} height={1000} videoUrl='/anims/research.mp4'/>
+            </div>
             <div className={styles.container} id='second'>
                 <div className={styles.researchCards} >
                     {researches.map((research, index) => (

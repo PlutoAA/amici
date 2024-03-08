@@ -1,9 +1,7 @@
 'use client';
 
-import { useState } from 'react';
 import Image from 'next/image';
 import { imgs } from '_utils/imgs/Slider'
-
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -27,6 +25,11 @@ function Slider() {
               src={slide}
               alt={`Amici${index}`}
               loading='lazy'
+              sizes="100vw"
+              style={{
+                width: '100%',
+                height: 'auto',
+              }}
             />
           </SwiperSlide>
         )

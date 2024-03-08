@@ -2,7 +2,6 @@
 
 import styles from "./page.module.scss"
 import {ProjectInfo} from "../../../_components/projectInfo/ProjectInfo";
-import {ImageWithSubtitle} from "../../../_components/imageWithSubtitle/ImageWithSubtitle";
 
 export default Research;
 

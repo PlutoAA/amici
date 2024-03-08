@@ -1,12 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-
-import { Spinner } from '_components';
 import { Video } from '_components/video/Video';
-import { Slider } from '_components/slider/Slider';
-import { SocialPopup } from '_components/socialsPopup/SocialPopup';
-
 import { ContactForm } from '_components/contactForm/ContactForm';
 import { ServiceCard } from '_components/serviceCard/ServiceCard';
 
@@ -23,7 +18,9 @@ function Services() {
 
     return (
         <>
-            <Video width={1920} height={1000} videoUrl='/anims/services.mp4'/>
+            <div className={styles.video}>
+                <Video width={1920} height={1000} videoUrl='/anims/services.mp4'/>
+            </div>
             <div className={styles.container}>
                 <div className={styles.services} id='second'>
                     {services.map((service, index) => (

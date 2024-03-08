@@ -13,6 +13,11 @@ function ImageWithSubtitle({ imgUrl, subtitle, width, height }: any) {
                 src={imgUrl}
                 alt={subtitle}
                 loading='lazy'
+                sizes="100vw"
+                style={{
+                    width: '100%',
+                    height: 'auto',
+                }}
                 width={width}
                 height={height}
             />

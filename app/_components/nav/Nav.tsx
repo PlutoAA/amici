@@ -1,9 +1,7 @@
 'use client';
 
-import { useState } from 'react';
 import Image from 'next/image';
 import aImg from '_utils/imgs/Subtract.svg'
-
 import { NavLink } from '_components';
 import styles from './nav.module.scss'
 import Link from 'next/link';

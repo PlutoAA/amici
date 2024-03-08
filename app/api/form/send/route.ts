@@ -1,6 +1,5 @@
 import joi from 'joi';
 
-import { usersRepo } from '_helpers/server';
 import { apiHandler } from '_helpers/server/api';
 
 module.exports = apiHandler({
@@ -10,7 +9,7 @@ module.exports = apiHandler({
 async function send(req: Request) {
     const body = await req.json();
     try {
-        const response = await fetch('https://api.tracker.yandex.net/v2/issues/', {
+        await fetch('https://api.tracker.yandex.net/v2/issues/', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

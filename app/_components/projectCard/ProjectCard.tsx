@@ -13,6 +13,11 @@ function ProjectCard({ name, authors, imgUrl }: IProject) {
         src={imgUrl}
         alt={name}
         loading='lazy'
+        sizes="100vw"
+        style={{
+            width: '100%',
+            height: 'auto',
+        }}
         width={1284}
         height={634}
       />

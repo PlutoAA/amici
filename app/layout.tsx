@@ -1,7 +1,8 @@
 import { Goldman } from 'next/font/google'
 import localFont from 'next/font/local'
 import 'globals.scss';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export const metadata = {
     title: 'Amici'
 }
@@ -52,6 +53,14 @@ function Layout({ children }: { children: React.ReactNode }) {
         <html lang="en" className={`${goldman.variable} ${craftWork.variable}`}>
             <body>
                 {children}
+                <ToastContainer
+                    position="bottom-right"
+                    hideProgressBar={false}
+                    closeOnClick
+                    rtl={false}
+                    limit={1}
+                    theme="dark"
+                />
             </body>
         </html>
     );

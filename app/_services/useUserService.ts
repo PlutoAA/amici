@@ -99,7 +99,7 @@ function useUserService(): IUserService {
             }
         }
     }
-};
+}
 
 // interfaces
 

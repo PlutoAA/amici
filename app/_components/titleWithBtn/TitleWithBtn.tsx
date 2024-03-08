@@ -1,7 +1,6 @@
 'use client';
 
 import styles from './titleWithBtn.module.scss'
-import Link from "next/link";
 import { useRouter } from 'next/navigation'
 
 export { TitleWithBtn };

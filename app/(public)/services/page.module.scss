@@ -1,5 +1,8 @@
 .container {
   padding: 0 51px 0 41px;
+  @media screen and (max-width: 800px) {
+    padding: 0 4px;
+  }
 }
 
 .services {
@@ -8,9 +11,21 @@
   grid-row-gap: 92px;
   grid-column-gap: 120px;
   margin-top: 112px;
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .form {
   margin-top: 120px;
   margin-bottom: 64px;
+}
+
+.video {
+  width: 100%;
+  background-color: black;
+  @media screen and (max-width: 1900px) {
+    display: none;
+  }
 }
