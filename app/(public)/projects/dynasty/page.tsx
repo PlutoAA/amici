@@ -32,7 +32,7 @@ function Project() {
                         <span className={styles.gallery__row__num}>02</span>
                         <span className={styles.gallery__row__title}>Лендинг</span>
                     </div>
-                    <Video width={1600} height={900} videoUrl={"/anims/dynasty.mp4"}/>
+                    <Video width={"1600"} height={900} videoUrl={"/anims/dynasty.mp4"}/>
                 </div>
             </div>
         </div>

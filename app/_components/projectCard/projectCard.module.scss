@@ -8,5 +8,9 @@
     display: block;
     font-weight: 800;
     font-size: 24px;
+
+    @media screen and (max-width: 800px) {
+      font-size: 16px;
+    }
   }
 }

@@ -18,6 +18,11 @@
     font-size: 24px;
     font-weight: 500;
     padding: 24px 0;
+
+    @media screen and (max-width: 800px) {
+      font-size: 16px;
+      text-align: justify;
+    }
   }
 }
 
@@ -28,6 +33,10 @@
 
   font-size: 24px;
   font-weight: 800;
+
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+  }
 
   &:hover {
     opacity: 0.8;
@@ -53,12 +62,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 92px;
+  grid-column-gap: 20px;
 
   @media screen and (max-width: 1200px) {
     grid-template-columns: 1fr 1fr;
-  }
-  @media screen and (max-width: 800px) {
-    grid-template-columns: 1fr;
   }
 }
 

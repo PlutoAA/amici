@@ -9,9 +9,13 @@
 
 .gallery {
   margin-top: 42px;
-  margin-bottom: 42px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  div {
+    margin-bottom: 42px;
+  }
 }
 
 .pdf {

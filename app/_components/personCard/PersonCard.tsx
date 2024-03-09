@@ -15,6 +15,11 @@ function PersonCard({ name, role, imgUrl }: IUser) {
         width={333}
         height={425}
         loading='lazy'
+        sizes="100vw"
+        style={{
+            width: '100%',
+            height: 'auto',
+        }}
       />
       <span className={styles.personCard_role}>{ role },</span>
       <span className={styles.personCard_name}>{ name }</span>

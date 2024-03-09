@@ -18,7 +18,7 @@ function Research() {
     return (
         <>
             <div className={styles.video}>
-                <Video width={1920} height={1000} videoUrl='/anims/research.mp4'/>
+                <Video width={"1920"} height={1000} videoUrl='/anims/research.mp4'/>
             </div>
             <div className={styles.container} id='second'>
                 <div className={styles.researchCards} >

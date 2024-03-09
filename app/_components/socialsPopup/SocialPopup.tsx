@@ -18,7 +18,7 @@ function SocialPopup() {
                 alt="Telegram"
               />
             </Link>
-            <Link href={"google.com"}>
+            <Link href={"https://www.instagram.com/amici.bureau"}>
               <Image 
                 src={insta}
                 alt="Instagram"

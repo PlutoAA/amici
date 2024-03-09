@@ -5,13 +5,29 @@
   @media (max-width: 825px) {
     flex-wrap: wrap-reverse;
   }
+  &__img {
+    @media (max-width: 825px) {
+      display: none;
+    }
+  }
+  &__content {
+    flex-basis: 50%;
+    flex-grow: 1;
+
+    @media (max-width: 825px) {
+      flex-basis: 100%;
+    }
+  }
+
   &__text {
     margin-top: 112px;
     font-size: 24px;
     font-weight: 500;
-    max-width: 755px;
+    text-align: justify;
+
     @media (max-width: 825px) {
       margin-top: 32px;
+      font-size: 16px;
     }
   }
 }

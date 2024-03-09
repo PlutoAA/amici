@@ -10,7 +10,7 @@ export function Video({ width, height, videoUrl }: IVideo) {
 }
 
 interface IVideo {
-  width: number
+  width: string
   height: number
   videoUrl: string
 }

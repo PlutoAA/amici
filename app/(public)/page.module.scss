@@ -3,12 +3,16 @@
   justify-content: center;
   align-items: center;
   margin-top: 56px;
+
+  @media (max-width: 825px) {
+    margin-top: 112px;
+  }
 }
 
 .video {
-  width: 100%;
+  width: 100vw;
   background-color: black;
-  @media screen and (max-width: 1900px) {
-    display: none;
-  }
+  //@media screen and (max-width: 1900px) {
+  //  display: none;
+  //}
 }

@@ -10,8 +10,10 @@ function ProjectInfo({ name, children, imgUrl, width, height, subtitle="" }: IPr
 
     return (
         <div className={styles.projectInfo}>
-            <ImageWithSubtitle imgUrl={imgUrl} subtitle={subtitle} width={width} height={height}/>
-            <div>
+            <div className={styles.projectInfo__img}>
+                <ImageWithSubtitle imgUrl={imgUrl} subtitle={subtitle} width={width} height={height}/>
+            </div>
+            <div className={styles.projectInfo__content}>
                 <TitleWithBtn name={name} />
                 <div className={styles.projectInfo__text}>
                     {children}
