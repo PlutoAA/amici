@@ -3,5 +3,9 @@
     display: block;
     font-size: 20px;
     font-weight: 600;
+
+    @media (max-width: 825px) {
+      font-size: 12px;
+    }
   }
 }

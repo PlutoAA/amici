@@ -6,15 +6,11 @@ export default Layout;
 function Layout({ children }: { children: React.ReactNode }) {
 
     return (
-        <div className="app-container bg-light">
+        <div className="app-container">
             <BurgerMenu />
             <Nav />
             <Alert />
-            <div className="p-4">
-                <div className="container">      
-                    {children}
-                </div>
-            </div>
+            {children}
         </div>
     );
 }

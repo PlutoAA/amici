@@ -18,13 +18,13 @@ function Research() {
     return (
         <>
             <div className={styles.video}>
-                <Video width={"1920"} height={1000} videoUrl='/anims/research.mp4'/>
+                <Video width={"100%"} height={"auto"} videoUrl='/anims/research.mp4'/>
             </div>
             <div className={styles.container} id='second'>
                 <div className={styles.researchCards} >
                     {researches.map((research, index) => (
                         <div key={index}>
-                            <Link href={`/research/${research.link}`}>
+                            <Link href={`${research.link}`}>
                                 <ResearchCard name={research.name} description={research.description} imgUrl={research.imgUrl} />
                             </Link>
                         </div>

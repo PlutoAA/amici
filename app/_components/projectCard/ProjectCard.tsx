@@ -21,7 +21,7 @@ function ProjectCard({ name, authors, imgUrl }: IProject) {
         width={1284}
         height={634}
       />
-      <span className={styles.projectCard_name}>Проект: { name },</span>
+      <span className={styles.projectCard_name}>Проект: { name }</span>
       <span className={styles.projectCard_authors}>Работали: { authors }</span>
     </div>  
   );

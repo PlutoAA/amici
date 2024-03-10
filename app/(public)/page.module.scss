@@ -1,12 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 75px);
+}
+
 .slider {
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
   margin-top: 56px;
-
-  @media (max-width: 825px) {
-    margin-top: 112px;
-  }
 }
 
 .video {

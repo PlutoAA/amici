@@ -15,5 +15,9 @@
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
+
+    @media screen and (max-width: 800px) {
+      margin-top: 24px;
+    }
   }
 }

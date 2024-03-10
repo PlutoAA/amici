@@ -28,11 +28,25 @@
       font-size: 300px;
       font-family: var(--font-goldman);
       line-height: 70%;
+
+      @media screen and (max-width: 800px) {
+        font-size: 100px;
+      }
     }
 
     &__title {
       font-size: 40px;
       font-weight: 800;
+
+      @media screen and (max-width: 800px) {
+        font-size: 24px;
+      }
     }
+  }
+}
+
+.man {
+  @media screen and (max-width: 800px) {
+    display: none;
   }
 }

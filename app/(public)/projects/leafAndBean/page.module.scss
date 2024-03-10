@@ -13,7 +13,12 @@
 
   &__row {
     display: flex;
+    gap: 32px;
     justify-content: space-between;
     margin-top: 48px;
+
+    & div {
+      flex: 1;
+    }
   }
 }

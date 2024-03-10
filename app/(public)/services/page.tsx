@@ -19,7 +19,7 @@ function Services() {
     return (
         <>
             <div className={styles.video}>
-                <Video width={"1920"} height={1000} videoUrl='/anims/services.mp4'/>
+                <Video width={"100%"} height={"auto"} videoUrl='/anims/services.mp4'/>
             </div>
             <div className={styles.container}>
                 <div className={styles.services} id='second'>

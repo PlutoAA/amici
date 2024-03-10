@@ -1,8 +1,8 @@
-import Branding from "./Branding.png"
+import Branding from "./Branding.svg"
 import dddDesign from "./3dDesign.png"
 import webSite from "./WebSite.png"
 import polygraph from "./Polygraph.png"
-import presentation from "./Presentation.png"
+import presentation from "./Presentation.svg"
 import digital from "./Digital.png"
 
 const services = [ 

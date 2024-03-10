@@ -10,14 +10,14 @@ export default Home;
 
 function Home() {
     return (
-        <>
+        <div className={styles.wrapper}>
             <div className={styles.video}>
-                <Video videoUrl="/anims/mainPage4.mp4" width={"100%"} height={80} />
+                <Video videoUrl="/anims/mainPage4.mp4" width={"100%"} height={"80"} />
             </div>
             <div className={styles.slider}>
                 <Slider />
             </div>
             <SocialPopup />
-        </>
+        </div>
     );
 }
