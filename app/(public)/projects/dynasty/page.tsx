@@ -15,7 +15,7 @@ function Project() {
                          imgUrl={"/imgs/projects/dynasty/0.png"} width={970} height={971}>
                 <p>Dynasty - магазин, который имеет широкий ассортимент товаров от ведущих мировых брендов, включая ракетки, мячи, кроссовки, одежду и аксессуары.</p>
                 <br/>
-                <p>Перед нами стояла задачи: разработать айдентику и сделать сайт </p>
+                <p>Перед нами стояли задачи: разработать айдентику и сделать сайт </p>
                 <Image className={styles.man} src={"/imgs/projects/dynasty/man.png"} alt={"man"} width={711} height={711} sizes="100vw"
                        style={{
                            width: '100%',
