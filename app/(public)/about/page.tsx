@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-
+import Image from "next/image";
 import users from "_utils/json/profileCards.json";
 import styles from "./page.module.scss";
 import { PersonCard } from "_components/personCard/PersonCard";
@@ -36,17 +36,17 @@ function About() {
           гордимся. Мы готовы работать с Вами вне зависимости от сферы
           деятельности Вашего бренда, пожеланий и местоположения.
         </p>
-        {!extended && <input
-              type="submit"
-              className={styles.moreBtn}
-              value={btnText}
-              onClick={handleClick}
+        {!extended && (
+          <input
+            type="submit"
+            className={styles.moreBtn}
+            value={btnText}
+            onClick={handleClick}
           />
-
-        }
+        )}
         {extended && (
-            <div className={styles.about_anim}>
-              <p className={styles.about_text}>
+          <div className={styles.about_anim}>
+            <p className={styles.about_text}>
               Многообразие условий сотрудничества и типологий заданий, над
               которыми работает бюро, позволяет переосмысливать традиционный
               подход и предлагать новые, нетипичные решения как в практической
@@ -76,6 +76,30 @@ function About() {
           ))}
         </div>
       </div>
+      <Image
+        src={"/imgs/team/all1.png"}
+        alt={"Команда Amici"}
+        width={1920}
+        height={1020}
+        loading="lazy"
+        sizes="100vw"
+        style={{
+          width: "100%",
+          height: "auto",
+        }}
+      />
+      <Image
+        src={"/imgs/team/all2.png"}
+        alt={"Команда Amici"}
+        width={1920}
+        height={1020}
+        loading="lazy"
+        sizes="100vw"
+        style={{
+          width: "100%",
+          height: "auto",
+        }}
+      />
     </>
   );
 }
