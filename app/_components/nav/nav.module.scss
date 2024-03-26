@@ -1,9 +1,15 @@
 .navbar {
   display: flex;
+  width: 100%;
+  background: #fff;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
   padding: 0 32px;
+  z-index: 111100;
+  position: fixed;
+  left: 0;
+  top: 0;
 
   @media (max-width: 824px) {
     display: none;

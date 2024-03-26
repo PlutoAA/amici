@@ -30,8 +30,7 @@ function ContactForm() {
   const onSubmit = async (data: IFormInput) => {
     try {
       await formService.send({
-        summary: `Заявка от ${data.company}`,
-        queue: "HJHJJHJH",
+        title: `Заявка от ${data.company}`,
         description: `ФИО: ${data.firstName} \n email: ${data.email} \n телефон: ${data.phoneNumber} \n Описание: ${data.description} `,
       });
       resetField("company");

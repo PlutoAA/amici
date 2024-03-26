@@ -20,7 +20,7 @@ const researches = [
     name: "Использование графики в логотипах",
     description: "как с помощью графики  создать уникальный визуальный образ компании.",
     imgUrl: Logotypes,
-    link: "/research/logotypes"
+    link: "/research/undefined"
   },
   {
     name: "Почему наш мозг считает это красивым",

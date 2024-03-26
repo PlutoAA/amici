@@ -28,5 +28,5 @@ interface IForm {
 }
 
 interface IFormService {
-    send: (form: { summary: string, queue: string, description: string }) => Promise<void>
+    send: (form: { title: string, description: string }) => Promise<void>
 }
